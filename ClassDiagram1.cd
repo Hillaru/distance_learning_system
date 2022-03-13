@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DLS.Person">
+    <Position X="7.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAEAAAAAAAAAgAAEAA=</HashCode>
+      <FileName>Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DLS.teacher">
+    <Position X="12.25" Y="5.75" Width="1.5" />
+    <InheritanceLine Type="DLS.Person" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.5" Y="6.882" />
+        <Point X="8.5" Y="7.809" />
+        <Point X="13.062" Y="7.809" />
+        <Point X="13.062" Y="7.434" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DLS.student">
+    <Position X="9.75" Y="5.75" Width="1.5" />
+    <InheritanceLine Type="DLS.Person" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.5" Y="6.882" />
+        <Point X="8.5" Y="7.358" />
+        <Point X="10.5" Y="7.358" />
+        <Point X="10.5" Y="6.983" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DLS.GenericXmlSerializer">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>DLSdata.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DLS.DataTransferObject">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgCAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>DLSdata.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DLS.CONSTANTS">
+    <Position X="12.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>DLSdata.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DLS.DLSdata">
+    <Position X="11" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEBAAAAAAAAAAAgAAQAIgAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>DLSdata.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DLS.Method">
+    <Position X="3" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAQAAAAAAAAAAAAAAAAAABACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Course.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DLS.Picture">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <InheritanceLine Type="DLS.Method" ManuallyRouted="true">
+      <Path>
+        <Point X="3.75" Y="5.75" />
+        <Point X="3.75" Y="5.297" />
+        <Point X="3" Y="5.297" />
+        <Point X="3" Y="4.377" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Course.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DLS.Text">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <InheritanceLine Type="DLS.Method" ManuallyRouted="true">
+      <Path>
+        <Point X="3.75" Y="5.75" />
+        <Point X="3.75" Y="5.552" />
+        <Point X="6.5" Y="5.552" />
+        <Point X="6.5" Y="4.377" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Course.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DLS.Video">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <InheritanceLine Type="DLS.Method" ManuallyRouted="true">
+      <Path>
+        <Point X="3.75" Y="5.75" />
+        <Point X="3.75" Y="5.526" />
+        <Point X="1.25" Y="5.526" />
+        <Point X="1.25" Y="4.569" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AACAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Course.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DLS.Test">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <InheritanceLine Type="DLS.Method" ManuallyRouted="true">
+      <Path>
+        <Point X="3.75" Y="5.75" />
+        <Point X="3.75" Y="5.312" />
+        <Point X="4.75" Y="5.312" />
+        <Point X="4.75" Y="4.377" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AACgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Course.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DLS.Course">
+    <Position X="7.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAgAQAAAAACAAAAAAIAAAAAAAAAAAABAAAAhAAA=</HashCode>
+      <FileName>Course.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
